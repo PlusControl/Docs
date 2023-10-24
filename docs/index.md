@@ -3,12 +3,15 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "PlusControl"
+  text: "WPF 自定义控件库"
+  tagline: "赋能每一次点击，让界面交互更加简洁，高效"
+  image:
+    src: /logo.png
+    alt: VitePress
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 开始
       link: /markdown-examples
     - theme: alt
       text: API Examples
