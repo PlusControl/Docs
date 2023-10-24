@@ -11,11 +11,14 @@ hero:
     alt: VitePress
   actions:
     - theme: brand
-      text: 开始
-      link: /markdown-examples
-    - theme: alt
+      text: 快速开始
+      link: /getting-started
+    - theme: sponsor
       text: API Examples
       link: /api-examples
+    - theme: sponsor
+      text: 文档示例
+      link: /doc
 
 features:
   - title: Feature A
@@ -26,3 +29,14 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
+<style>
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
+
+
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
+  --vp-home-hero-image-filter: blur(40px);
+}
+
+</style>
