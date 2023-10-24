@@ -18,7 +18,7 @@ hero:
       link: /api-examples
     - theme: sponsor
       text: 文档示例
-      link: /doc
+      link: /building-documents
 
 features:
   - title: Feature A
